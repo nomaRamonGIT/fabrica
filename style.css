@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background-color: #151b1e;
+    text-align: center;
+    padding: 30px 2%;
+    width: 100%;
+}
+
+.intro{
+    color:white;
+    margin: auto;
+    max-width: 700px;
+}
+
+.intro h1,h2{
+    letter-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro h2,p{
+    margin-top: 20px;
+}
+
+.intro p{
+    line-height: 25px;
+    font-weight: 200;
+}
+
+.intro > p > a{
+    border-radius: 3px;
+    font-size: 16px;
+    color: yellow;
+    border: 2px solid yellow;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.intro > p > a:hover{
+    color: #151b1e;
+    background-color:yellow;
+    border: solid 1px yellow;
+    box-shadow: 10px 10px  black;
+}
+
+header > .intro > a{ 
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    color: #151b1e;
+    background-color: white;
+    width: 200px;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 30px;
+    transition: 0.9s;
+}
+
+header > .intro > a:hover{
+    color: white;
+    background-color:#151b1e;
+    border: solid 1px black;
+    box-shadow: 10px 10px  black;
+}
+
+/*************************Referecias***************************************************/
+
+.referencias{
+    padding: 10px 2% 50px 2%;
+    text-align: center;
+}
+
+.titulo{
+    padding: 20px;
+    margin-top: 40px;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.titulo > h1{
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+.titulo p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+.subreferencia{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 40px;
+    /*background-color:blueviolet;*/
+}
+
+.subreferencia > h2{  
+    font-style: italic;
+    font-size: 30px;
+ }
+
+.icon img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 90px;
+}
+
+
+.referencias > a{ 
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    color: white;
+    background-color: black;
+    width: 200px;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 30px;
+    transition: 0.9s;
+}
+
+.referencias > a:hover{
+    color: black;
+    background-color:white;
+    border: solid 1px black;
+    box-shadow: 10px 10px  black;
+}
+
+/********************CONTATO***************************************/
+
+.contato{
+    background-color: #c7ede6;
+    text-align: center;
+    padding: 30px 2%;
+}
+
+.contato > h1{
+    margin-top: 40px;
+}
+
+.contato > p{
+    line-height: 25px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.contato a{
+    margin-top: 10px;
+    display: block;
+}
