@@ -1,0 +1,1 @@
+alert('Um aviso rapidinho. Todas a imagens ou nome destacados são interativos, então basta clicar para serem direcionados para o perfil, obrigado'); 
